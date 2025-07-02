@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cryotech - Bolla di Lavoro</title>
+</head>
+<body>
+    <h1>Cryotech - Bolla di Lavoro</h1>
+    <form action="/genera_pdf" method="POST">
+        <label>Cliente:</label>
+        <input type="text" name="cliente" required><br><br>
+        
+        <label>Materiale:</label>
+        <input type="text" name="materiale" required><br><br>
+        
+        <input type="submit" value="Genera PDF">
+    </form>
+</body>
+</html>
